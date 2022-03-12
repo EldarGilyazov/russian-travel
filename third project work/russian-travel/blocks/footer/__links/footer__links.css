@@ -1,0 +1,18 @@
+.footer__links {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+   .footer__links {
+      flex-direction: row;
+      width: 56%;
+   }
+}
